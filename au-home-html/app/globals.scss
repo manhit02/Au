@@ -254,7 +254,7 @@ body {
 
 // main
 .mySwiper,
-.mySwiper1,.mySwiper3,.mySwiper4 {
+.mySwiper1 {
   .swiper-button-prev:after,
   .swiper-button-next:after {
     color: #ff9e00;
@@ -295,15 +295,37 @@ body {
     }
   }
 }
-.mySwiper4 {
-  .swiper-button-prev:after,
-  .swiper-button-next:after {
+
+  .control-sw3-next,
+  .control-sw3-prev,  .control-sw3-next1,
+  .control-sw3-prev1{
+    position: absolute;
+    font-family: swiper-icons;
+    font-size: var(--swiper-navigation-size);
     color: #ff9e00;
-    font-weight: 900;
-    text-shadow: rgb(43, 191, 255) 1px 0px 0px, rgb(43, 191, 255) 0.540302px 0.841471px 0px, rgb(43, 191, 255) -0.416147px 0.909297px 0px, rgb(43, 191, 255) -0.989992px 0.14112px 0px, rgb(43, 191, 255) -0.653644px -0.756802px 0px, rgb(43, 191, 255) 0.283662px -0.958924px 0px, rgb(43, 191, 255) 0.96017px -0.279415px 0px;
+    text-shadow: rgb(255, 158, 0) 1px 0px 0px, rgb(255, 158, 0) 0.540302px 0.841471px 0px, rgb(255, 158, 0) -0.416147px 0.909297px 0px, rgb(255, 158, 0) -0.989992px 0.14112px 0px, rgb(255, 158, 0) -0.653644px -0.756802px 0px, rgb(255, 158, 0) 0.283662px -0.958924px 0px, rgb(255, 158, 0) 0.96017px -0.279415px 0px;
+    top: var(--swiper-navigation-top-offset, 50%);
+    width: calc(var(--swiper-navigation-size) / 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
-  
-}
+
+  .control-sw3-next,  .control-sw3-next1{
+    right: var(--swiper-navigation-sides-offset, 3px);
+    left: auto;
+ 
+  }
+  .control-sw3-prev,  .control-sw3-prev1{
+    left: var(--swiper-navigation-sides-offset, 3px);
+    right: auto;
+
+  }
 
 .m-btnActive1 {
   background: url(/assets/images/btn-3.svg) center / contain;
