@@ -1,0 +1,6 @@
+<svg width="230" height="230" viewBox="0 0 230 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="15" y="15" width="200" height="200" rx="20" fill="#FF9E00"/>
+<rect x="1" y="1" width="228" height="228" rx="31" stroke="#AAAAAA" stroke-width="2" stroke-linejoin="round" stroke-dasharray="8 10"/>
+<rect x="9" y="9" width="212" height="212" rx="20" fill="#FBC12B"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32 2H198C214.569 2 228 15.4315 228 32V50H230V32C230 14.3269 215.673 0 198 0H32C14.3269 0 0 14.3269 0 32V198C0 215.673 14.3269 230 32 230H59.5V228H32C15.4315 228 2 214.569 2 198V32C2 15.4315 15.4315 2 32 2Z" fill="#AAAAAA"/>
+</svg>
